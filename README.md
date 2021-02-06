@@ -9,13 +9,13 @@ $ g++ centre-align-code.cpp -o centre-align-code
 $ ./centre-align-code test.c output.c
 ```
 
-`test.c`: (remove all leading indentation for best result)
+`test.c`:
 ```
 #include <stdio.h>
 
 int main()
 {
-printf("Hello, World!\n");
+	printf("Hello, World!\n");
 }
 ```
 
