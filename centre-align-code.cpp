@@ -30,11 +30,12 @@ int main(int argc, char **argv)
 		{
 			if (line[i] == ' ' || line[i] == '\t')
 			{
-				line = line.substr(1);
 				i++;
 			}
 			else break;
 		}
+		
+		line = line.substr(i);
 
 		size_t padding = 0;
 
